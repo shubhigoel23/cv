@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Contact Me </title>
+</head>
+<body>
+    <h2>My Contact Details</h2>
+    <p>My fictional address:</p>
+    <p>
+    <br> H NO.298, SECTOR 16,
+<br>
+FARIDABAD(121002),
+<br> HARYANA
+<br>
+8607112141
+    </p>
+    <p>iamshubhigoel@gmail.com </p>
+    
+    <br>
+    <a href="https://github.com/shubhigoel23">github </a>
+    <br>
+    <a href="https://www.codechef.com/users/shubhi_goel20">codechef </a>
+    <br>
+    <a href="https://www.linkedin.com/in/shubhi-goel-613b26139/">LinkedIn</a>
+    <form action ="mailto:iamshubhigoel@gmail.com"  method="POST" enctype="text/plain"> 
+        <!-- here this action attribute of the form element is used to specify the action that will be performed after we click on the submit button.so basically here mail to followed by email  tells that all the information filled in the form will be mailed to the mentioned email id  -->
+        <!--and here enctype means encrytion type it will send the data in the form of plain text that can be understood easily by us.otherwise it will send the data in the UTF-8 meta charset-->
+
+<label >Your name:</label>
+<input type="text" name="yourName"><br>
+<!-- the name attribute of this input element will provide a name to each and every input field, the data filled by the user in the form we will be send to the owner of the website in that name only -->
+
+<label> Your email </label>
+<input type="email" name="yourEmail" id=""><br>
+
+<label >Your message :</label>
+<textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+<!-- columns and ros specified tells the initial size of the text box . and the 3 lines on the right bottom side corner is for changing the size of the text box manually, by dragging it. -->
+<br>
+<input type="submit" >
+    </form>
+</body>
+</html>
